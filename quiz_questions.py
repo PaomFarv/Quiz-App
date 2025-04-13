@@ -1,11 +1,32 @@
 quiz_qs = [
     {"question": "What is the capital of France?", "options": ["Berlin", "Madrid", "Paris", "Rome"], "answer": "Paris"},
     {"question": "What is the square root of 64?", "options": ["6", "8", "10", "12"], "answer": "8"},
-    {"question": "Who wrote 'Hamlet'?", "options": ["Charles Dickens", "J.K. Rowling", "William Shakespeare", "Leo Tolstoy"], "answer": "William Shakespeare"}
+    {"question": "Who wrote 'Hamlet'?", "options": ["Charles Dickens", "J.K. Rowling", "William Shakespeare", "Leo Tolstoy"], "answer": "William Shakespeare"},
+    {"question": "What is the largest planet in our Solar System?", "options": ["Earth", "Saturn", "Jupiter", "Mars"], "answer": "Jupiter"},
+    {"question": "Which element has the chemical symbol 'O'?", "options": ["Oxygen", "Gold", "Osmium", "Oxide"], "answer": "Oxygen"},
+    {"question": "Who painted the Mona Lisa?", "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"], "answer": "Leonardo da Vinci"},
+    {"question": "Which country hosted the 2016 Summer Olympics?", "options": ["China", "Brazil", "USA", "Russia"], "answer": "Brazil"},
+    {"question": "What is the capital of Japan?", "options": ["Beijing", "Seoul", "Tokyo", "Bangkok"], "answer": "Tokyo"},
+    {"question": "What is the hardest natural substance on Earth?", "options": ["Steel", "Gold", "Diamond", "Quartz"], "answer": "Diamond"},
+    {"question": "Which planet is known as the Red Planet?", "options": ["Mercury", "Venus", "Mars", "Neptune"], "answer": "Mars"},
+    {"question": "Who discovered penicillin?", "options": ["Marie Curie", "Alexander Fleming", "Isaac Newton", "Louis Pasteur"], "answer": "Alexander Fleming"},
+    {"question": "What is the boiling point of water in Celsius?", "options": ["90°C", "95°C", "100°C", "105°C"], "answer": "100°C"},
+    {"question": "Who was the first man to step on the Moon?", "options": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin", "Michael Collins"], "answer": "Neil Armstrong"},
+    {"question": "What is the chemical symbol for Gold?", "options": ["Ag", "Au", "Gd", "Go"], "answer": "Au"},
+    {"question": "What is the smallest prime number?", "options": ["0", "1", "2", "3"], "answer": "2"},
+    {"question": "Which language is primarily spoken in Brazil?", "options": ["Spanish", "Portuguese", "French", "English"], "answer": "Portuguese"},
+    {"question": "Who invented the telephone?", "options": ["Thomas Edison", "Nikola Tesla", "Alexander Graham Bell", "Guglielmo Marconi"], "answer": "Alexander Graham Bell"},
+    {"question": "Which gas do plants absorb from the atmosphere?", "options": ["Oxygen", "Carbon Dioxide", "Hydrogen", "Nitrogen"], "answer": "Carbon Dioxide"},
+    {"question": "Which ocean is the largest?", "options": ["Atlantic", "Indian", "Arctic", "Pacific"], "answer": "Pacific"},
+    {"question": "What is H2O commonly known as?", "options": ["Salt", "Hydrogen", "Water", "Oxygen"], "answer": "Water"},
+    {"question": "What currency is used in Japan?", "options": ["Won", "Yuan", "Yen", "Dollar"], "answer": "Yen"},
+    {"question": "Who is the author of '1984'?", "options": ["Aldous Huxley", "George Orwell", "Mark Twain", "Ernest Hemingway"], "answer": "George Orwell"},
+    {"question": "How many continents are there?", "options": ["5", "6", "7", "8"], "answer": "7"},
+    {"question": "What is the main ingredient in guacamole?", "options": ["Tomato", "Avocado", "Onion", "Cucumber"], "answer": "Avocado"},
+    {"question": "Which organ purifies blood in the human body?", "options": ["Heart", "Lungs", "Kidneys", "Liver"], "answer": "Kidneys"},
+    {"question": "Which is the longest river in the world?", "options": ["Amazon", "Nile", "Yangtze", "Mississippi"], "answer": "Nile"},
+    {"question": "In which year did World War II end?", "options": ["1943", "1945", "1947", "1950"], "answer": "1945"},
+    {"question": "What is the freezing point of water in Celsius?", "options": ["0°C", "32°C", "-1°C", "10°C"], "answer": "0°C"},
+    {"question": "Which continent is known as the 'Dark Continent'?", "options": ["Asia", "South America", "Africa", "Australia"], "answer": "Africa"},
+    {"question": "Which is the tallest mountain in the world?", "options": ["Mount Everest", "K2", "Kangchenjunga", "Lhotse"], "answer": "Mount Everest"}
 ]
-
-question_no = 0
-
-options = quiz_qs[question_no]["options"]
-
-print(options)
